@@ -32,9 +32,9 @@ My tutorial will specifically be for students who are using a Mac device and wil
 4. Running Commands
   * Here, I tried various commands in the terminal
   * Here is a list of the various commands I tried
-  * 1. cd ~
-  * 2. cd
-  * 3. ls -lat
-  * 4. ls -a
+   1. cd ~
+   2. cd
+   3. ls -lat
+   4. ls -a
   * insert screenshot of outputs after each command
   
