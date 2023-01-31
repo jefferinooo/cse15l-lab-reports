@@ -99,4 +99,50 @@ Junit
  }
 ```
 
+Symptom
+---
+
+![test1](pictures/LR3/3.png)
+
+This test passes with the buggy program.
+
+
+![test1](pictures/LR3/4.png)
+
+This test fails with the buggy program. It is expected to be 9,6,3, but instead the array is 0,0,0.
+
+Fix
+---
+
+Code before
+
+```
+static int[] reversed(int[] arr) {
+   int[] newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i += 1) {
+     arr[i] = newArray[arr.length - i - 1];
+   }
+   return arr;
+ }
+```
+
+Code after
+
+```
+static int[] reversed(int[] arr) {
+   int[] newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i += 1) {
+     newArray[i] = arr[arr.length - i - 1];
+   }
+   return newArray;
+ }
+```
+
+In this code, it returns newArray and updates the ith element in newArray to be arr[arr.length - i - 1]. In the old code, newArray was a blank array with the length of arr’s length. By updating arr to be newArray[arr.length - i - 1], we would get  0 at every place. We want to update the newArray with arr’s values in reverse order, so this would fix it. 
+
+
+Part III
+---
+
+	One thing I learned in the lab from these past two weeks is how to launch a web server. I also learned how to run servers remotely. Using these servers, I was able to make servers that stored numbers and strings. By using different requests, my server was able to tell if I wanted to do things such as add a number or add a certain string. I wonder how these variables are stored.  It makes me wonder what else I can do using servers.
 
