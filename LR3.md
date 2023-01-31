@@ -52,6 +52,7 @@ For this second screenshot, the methods in my code that are called are getPath()
 Part 2
 ---
 Failure inducing input Junit test
+---
 
 ```
 @Test
@@ -75,6 +76,7 @@ Method
 ```
 
 Input that doesn't induce a failure
+---
 Junit
 
 ```
