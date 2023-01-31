@@ -143,6 +143,6 @@ In this code, it returns newArray and updates the ith element in newArray to be 
 
 Part III
 ---
+One thing I learned in the lab from these past two weeks is how to launch a web server. I also learned how to run servers remotely. Using these servers, I was able to make servers that stored numbers and strings. By using different requests, my server was able to tell if I wanted to do things such as add a number or add a certain string. I wonder how these variables are stored.  It makes me wonder what else I can do using servers.
 
-	One thing I learned in the lab from these past two weeks is how to launch a web server. I also learned how to run servers remotely. Using these servers, I was able to make servers that stored numbers and strings. By using different requests, my server was able to tell if I wanted to do things such as add a number or add a certain string. I wonder how these variables are stored.  It makes me wonder what else I can do using servers.
-
+	
