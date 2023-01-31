@@ -1,3 +1,6 @@
+Lab Report 2
+---
+
 Part 1
 ---
 
@@ -48,3 +51,50 @@ For this second screenshot, the methods in my code that are called are getPath()
 
 Part 2
 ---
+Failure inducing input Junit test
+
+```
+@Test
+ public void testReversed2() {
+   int[] input2 = { 3, 6, 9 };
+   assertArrayEquals(new int[]{ 9, 6, 3 }, ArrayExamples.reversed(input2));
+ }
+```
+
+Method
+
+```
+ static int[] reversed(int[] arr) {
+   int[] newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i += 1) {
+     arr[i] = newArray[arr.length - i - 1];
+   }
+   return arr;
+ }
+
+```
+
+Input that doesn't induce a failure
+Junit
+
+```
+@Test
+ public void testReversed() {
+   int[] input1 = { };
+   assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+ }
+ ```
+ 
+ Method
+ 
+ ```
+ static int[] reversed(int[] arr) {
+   int[] newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i += 1) {
+     arr[i] = newArray[arr.length - i - 1];
+   }
+   return arr;
+ }
+```
+
+
