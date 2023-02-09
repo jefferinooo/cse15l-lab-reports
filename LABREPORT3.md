@@ -26,6 +26,8 @@ My source for this example is from Week 4 of lab where I was encouraged to do a 
 
 2) Finding files by approximate names
 
+---
+
 Example 3
 ```
 jeffjimenez@Jeffs-MacBook-Pro docsearch % find ./written_2 -iname "*History*txt"
