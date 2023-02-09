@@ -80,4 +80,12 @@ jeffjimenez@Jeffs-MacBook-Pro docsearch % find ./written_2 -iname "*History*txt"
 ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 jeffjimenez@Jeffs-MacBook-Pro docsearch % 
 ```
-With this command, I am able to find files by approximate file name and it is a case in-sensitive search. My source for this command is redhat.com/sysadmin/linux-find-command.
+With this command, I am able to find files by approximate file name and it is a case in-sensitive search. In this case, it just finds all the txt files with History in the name. My source for this command is redhat.com/sysadmin/linux-find-command.
+
+Example 4
+---
+```
+find ./written_2 -iname "*hIstoRyHoNg*txt"
+./written_2/travel_guides/berlitz1/HistoryHongKong.txt
+```
+With this command, I used -iname to find a file with the terms HistoryHong and it ignored the case sensitivity. It found an appropriate file. The source for this command is redhat.com/sysadmin/linux-find-command.
