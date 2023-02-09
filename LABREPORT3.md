@@ -116,3 +116,14 @@ jeffjimenez@Jeffs-MacBook-Pro docsearch % find ./written_2 -type d
 ./written_2/travel_guides/berlitz2
 ```
 With this command, I used -type d to list all of the directories in written_2. This is useful if I want to find all of the directories in a path. The source for this command was redhat.com/sysadmin/linux-find-command.
+
+Example 6
+---
+```
+jeffjimenez@Jeffs-MacBook-Pro docsearch % find ./written_2 -maxdepth 1 -type d
+./written_2
+./written_2/non-fiction
+./written_2/travel_guides
+```
+With this command, I limited the number of searches after going into /written_2. I only went into one directory after the starting point of written_2. This is useful because it can show me the first few directories that are relevant to me and it won't clutter my entire screen. The source for this command was redhat.com/sysadmin/linux-find-command.
+
