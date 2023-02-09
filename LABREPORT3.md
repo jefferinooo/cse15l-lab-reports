@@ -4,7 +4,6 @@ Researching  Commands:  Find Command
 ---
 
 1) Finding a specific file with a specific name
-
 ---
 
 ```
