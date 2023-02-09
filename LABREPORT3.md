@@ -96,6 +96,7 @@ find ./written_2 -iname "*hIstoRyHoNg*txt"
 With this command, I used -iname to find a file with the terms HistoryHong and it ignored the case sensitivity. It found an appropriate file. The source for this command is redhat.com/sysadmin/linux-find-command.
 
 3) Listing directories
+---
 
 
 Example 5
