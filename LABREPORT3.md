@@ -127,3 +127,23 @@ jeffjimenez@Jeffs-MacBook-Pro docsearch % find ./written_2 -maxdepth 1 -type d
 ```
 With this command, I limited the number of searches after going into /written_2. I only went into one directory after the starting point of written_2. This is useful because it can show me the first few directories that are relevant to me and it won't clutter my entire screen. The source for this command was redhat.com/sysadmin/linux-find-command.
 
+#4) Finding files that were modified x minutes ago
+---
+Example 7
+---
+```
+find ./written_2 -mmin -5
+./written_2/non-fiction/OUP/Fletcher/ch2.txt
+```
+With this command, I am trying to find commands in the /written_2 path that have been edited in the last 5 minutes. This is useful to try to find files that I have recently edited but may have lost. I found the source for this command on linuxhint.com/linux-find-command-tutorial/.
+
+Example 8
+---
+```
+ find ./written_2 -mmin -1
+./written_2/travel_guides/berlitz1/HistoryJamaica.txt
+./written_2/travel_guides/berlitz1/HistoryHongKong.txt
+./written_2/travel_guides/berlitz1/HistoryFWI.txt
+```
+With this command, I look for commands in the /written_2 path that have been edited in the past minute. This could be useful in the chance where I accidentally close files that I have been working on and I am struggling to find again.  I found the source for this command on linuxhint.com/linux-find-command-tutorial/.
+
