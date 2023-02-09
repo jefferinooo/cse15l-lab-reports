@@ -27,7 +27,6 @@ With this command, I am trying to find the WhereToMalaysia.txt file. This comman
 My source for this example is from Week 4 of lab where I was encouraged to do a web search to learn about the -name option for find.
 
 #2) Finding files by approximate names
-
 ---
 
 Example 3
