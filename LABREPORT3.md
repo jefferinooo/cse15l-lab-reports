@@ -94,3 +94,25 @@ find ./written_2 -iname "*hIstoRyHoNg*txt"
 ./written_2/travel_guides/berlitz1/HistoryHongKong.txt
 ```
 With this command, I used -iname to find a file with the terms HistoryHong and it ignored the case sensitivity. It found an appropriate file. The source for this command is redhat.com/sysadmin/linux-find-command.
+
+3) Listing directories
+
+
+Example 5
+---
+```
+jeffjimenez@Jeffs-MacBook-Pro docsearch % find ./written_2 -type d
+./written_2
+./written_2/non-fiction
+./written_2/non-fiction/OUP
+./written_2/non-fiction/OUP/Berk
+./written_2/non-fiction/OUP/Abernathy
+./written_2/non-fiction/OUP/Rybczynski
+./written_2/non-fiction/OUP/Kauffman
+./written_2/non-fiction/OUP/Fletcher
+./written_2/non-fiction/OUP/Castro
+./written_2/travel_guides
+./written_2/travel_guides/berlitz1
+./written_2/travel_guides/berlitz2
+```
+With this command, I used -type d to list all of the directories in written_2. This is useful if I want to find all of the directories in a path. The source for this command was redhat.com/sysadmin/linux-find-command.
