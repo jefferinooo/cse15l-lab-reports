@@ -3,7 +3,7 @@ Lab Report 3
 Researching  Commands:  Find Command
 ---
 
-1) Finding a specific file with a specific name
+#1) Finding a specific file with a specific name
 ---
 Example 1
 ---
@@ -26,7 +26,7 @@ With this command, I am trying to find the WhereToMalaysia.txt file. This comman
 
 My source for this example is from Week 4 of lab where I was encouraged to do a web search to learn about the -name option for find.
 
-2) Finding files by approximate names
+#2) Finding files by approximate names
 
 ---
 
@@ -95,7 +95,7 @@ find ./written_2 -iname "*hIstoRyHoNg*txt"
 ```
 With this command, I used -iname to find a file with the terms HistoryHong and it ignored the case sensitivity. It found an appropriate file. The source for this command is redhat.com/sysadmin/linux-find-command.
 
-3) Listing directories
+#3) Listing directories
 ---
 
 
