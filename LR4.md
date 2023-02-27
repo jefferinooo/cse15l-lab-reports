@@ -32,3 +32,12 @@ Step 7: Edit the code file to fix the failing test
 
 Step 8: Run the tests, demonstrating that they now succeed
 ---
+* ![test](pictures/LR4/5.png)
+* Keys pressed: `<command-tab>`, Triple Click, `<Ctrl-C>`, `<Ctrl-V>`, `<enter>`
+* Command-tab switches tab so I can see the window where I have the commands already written out so I can easily copy and paste it. Triple click the Junit tester line so it is highlighted. Once highlighted, I ctrl-c to copy and then ctrl-v to paste it.
+
+Step 9: Commit and push resulting change to Github account
+---
+* ![test](pictures/LR4/6.png)
+* Keys pressed: `<command-tab>`, Triple Click, `<Ctrl-C>`, `<Ctrl-V>`, `<enter>`, jefferinooo, `<enter>`, `<command-tab>`, Triple Click, `<Ctrl-C>`, `<Ctrl-V>`, `<enter>`
+*  Command-tab switches tab so I can see the window where I have the commands already written out so I can easily copy and paste it. Triple click the `git add; git commit; git push` line so it is highlighted. Once highlighted, I ctrl-c to copy and then ctrl-v to paste it. Then I type in my github username, then I exit command tab to get my authentication key that will let me push the changes to github. I then paste it in and enter it to finalize my changes.
